@@ -1,0 +1,32 @@
+body{
+	font-family: 'Arial', sans-serif;
+	font-size: 0.8em;
+}
+
+.canvasNormal{
+	position: relative;
+	background-color: #000000;
+}
+.wrapperNormal{
+	width: 900px;
+	margin: auto;
+}
+
+.canvasFullWindow{
+    position: absolute;
+    background-color: #FFFFFF;
+    top: 0px;
+    left: 0px;
+}
+ 
+.wrapperFullWindow{
+	position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index:-1;
+}
+#buttonWrapper{
+	position: absolute;
+    top: 0px;
+    left: 0px;
+}
