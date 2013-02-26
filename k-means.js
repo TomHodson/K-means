@@ -156,6 +156,7 @@ var centre_of = function(some_points) {
 var regroup_points = function(points) {
 		var groups = _.groupBy(points, 'group');
 		var centres = _.map(groups, centre_of);
+		var r = Parallel.mapreduce(centre_of, )
 		var new_points = [];
 		for (var i = points.length - 1; i >= 0; i--) {
 			var new_point = points[i].copy();
